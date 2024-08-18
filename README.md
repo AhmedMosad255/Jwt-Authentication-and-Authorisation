@@ -32,10 +32,11 @@ The project follows a standard layered architecture:
 - **Controller**: Manages HTTP requests and responses, exposing endpoints for user actions.
 - **Security**: Configures Spring Security and JWT integration, managing authentication and authorization processes.
 
-## API EndPoints
--POST /api/v1/auth/register: Register a new user.
--POST /api/v1/auth/authenticate: Authenticate a user and receive a JWT.
--GET /api/v1/demo-controller: Access a protected resource (requires JWT).
+## API EndPoints 
+
+- **POST**: /api/v1/auth/register: Register a new user.
+- **POST**: /api/v1/auth/authenticate: Authenticate a user and receive a JWT.
+- **GET**: /api/v1/demo-controller: Access a protected resource (requires JWT).
 
 ## Setup and Installation
 
