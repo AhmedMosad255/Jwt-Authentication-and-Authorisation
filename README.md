@@ -1,4 +1,4 @@
-JWT Authentication and Authorization
+## JWT Authentication and Authorization
 Overview
 This project implements a secure authentication and authorization system using JSON Web Tokens (JWT). The system is designed to handle user login, registration, and secure access to protected resources in a web application. It is built using Spring Boot for the backend and integrates JWT for token-based security.
 
