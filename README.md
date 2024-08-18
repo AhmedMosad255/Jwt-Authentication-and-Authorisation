@@ -10,7 +10,8 @@ This project implements a secure authentication and authorization system using J
 - **User Login**: Registered users can log in using their credentials to receive a JWT.
 - **JWT Token Generation**: Upon successful authentication, a JWT is generated and returned to the client. This token is used to authenticate subsequent requests.
 - **Role-Based Authorization**: Access to specific endpoints is restricted based on user roles (e.g., Admin, User).
-- **Stateless Session**: The application does not store user sessions on the server. Instead, the JWT is used to maintain user state across requests.
+- **Stateless Session**: The application does not store user sessions on the server. Instead, the JWT is used to maintain use![spring-security](https://github.com/user-attachments/assets/0b07b21b-ebc5-4f5c-8f91-9f1242d03ce5)
+r state across requests.
 - **Secure Endpoints**: Sensitive endpoints are protected, requiring a valid JWT for access.
 - **Logout**: Users can securely log out by invalidating their token.
 
